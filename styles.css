@@ -1,0 +1,177 @@
+
+/* Base Styling */
+*::before, 
+*::after,
+* {
+    box-sizing: border-box
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* Importing Fonts */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* Header Styling */
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.header_navbar {
+    align-self: center;
+    font-size: 0.9rem;
+}
+
+.navbar_item {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+:hover.navbar_item {
+    color: aquamarine;
+}
+
+.header_title {
+    letter-spacing: -0.05rem;
+    font-size: 1.4rem;
+    align-self: center;
+}
+
+.header_button {
+    margin: 1rem;
+    align-self: center;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.05rem;
+    border-radius: 100px;
+    border-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.01);
+    color: black;
+    cursor: pointer;
+}
+
+:hover.header_button {
+    background-color: aquamarine;
+    border-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Home Section */
+
+.home_container {
+    text-align: center;
+    margin-top: 10rem
+}
+
+.home_title {
+    font-size: 3.5rem;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: -0.05rem;
+}
+
+.home_slogan {
+    font-style: italic;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 0.05rem;
+    color:aquamarine
+}
+
+/* Pricing */
+.pricing_container {
+    margin-top: 5rem;
+}
+
+.pricing_section {
+    max-width: 45ch;
+    margin: 2rem;
+    margin: 0 auto ;
+    text-align: center;
+    padding: 1rem;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+.pricing_list {
+    list-style-type: none;
+    text-decoration: none;
+    max-width: 30ch;
+    padding: 1rem;
+}
+
+.pricing_listitem {
+    padding: 0.2rem;
+}
+
+.pricing_notice {
+    font-size: 0.7rem;
+    text-align: center;
+    font-style: italic;
+    max-width: 45ch;
+    margin: 0 auto;
+}
+
+.bronze {
+    background-image: linear-gradient(to bottom right, rgba(194, 113, 14, 0.82), white 30%);
+}
+
+.silver {
+    background-image: linear-gradient(to bottom right, rgba(173, 168, 170, 0.62), white 30%);
+}
+
+.gold {
+    background-image: linear-gradient(to bottom right, rgba(184, 154, 6, 0.62), white 30%);
+}
+
+/* Form Styling */
+.contactform_container {
+    margin-inline: auto;
+    text-align: center;
+    margin-top: 10rem;
+    padding: 1rem;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    width: 80%;
+}
+
+.item {
+    margin: 0.4rem 0.2rem;
+}
+
+.textelement {
+    width: 35%;
+}
+
+.submit_button {
+    margin-top: 2rem;
+    padding: 0.9em;
+    font-size: 0.8rem;
+    letter-spacing: 0.05rem;
+    border-radius: 100px;
+    border-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.01);
+    color: black;
+    cursor: pointer;
+}
+
+:hover.submit_button {
+    background-color: aquamarine;
+    border-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Copyright Section */
+
+.copyright {
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 0.8rem;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.4);
+}
